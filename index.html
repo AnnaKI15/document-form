@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link type='text/css' href='style.css' rel='stylesheet'>
+	<link rel="stylesheet" href="reviews_section.css">
+	<script src='jquery.js' type='text/javascript'></script>
+	<script src="jquery-form.js" type="text/javascript"></script>
+	<title>Document</title>
+</head>
+<body>
+	
+
+
+
+
+
+	<a href="#" rel="#overlay">
+	<button type="button">Сделать заказ</button>
+	</a>
+	
+<div class="overlay" id="overlay">
+		<div class="wrap">
+			<form class="form" action="" method="post">
+				<div class="form__lables">
+					<div class="lable">*Имя:</div>
+						<input class="input" name="name" class="input" type="text" required>
+				</div>
+				<div class="form__lables">
+					<div class="lable">*E-mail:</div>
+						<input class="input" name="email" class="input" type="text" required>
+				</div>
+				<div class="form__lables">		
+					<div class="lable">*Телефон:</div>
+						<input class="input" name="tel"  type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+				</div>
+				<div class="form__lables">		
+					<div class="lable">*Дата рождения:</div>
+						<input class="input" name="date"  class="input" type="data" min="1800-01-01" max="2021-12-31" required>
+		      	</div>
+		      <input class="button form-btn" name="mail_submit" type="submit" value="Сделать заказ">
+
+			</form>
+		</div>
+	</div>
+	
+	<section class="reviews">
+			<img src="img/reviews/rectaglebig.png" alt="" class="reviews__rectangle-big">
+			<img src="img/reviews/bg-reviews.png" alt="" class="bg-reviews">
+			<div class="wreapper__container">
+				<div class="reviews__body">
+					<h1 class="reviews__title title">
+						Отзывы о нашем магазине
+					</h1>
+					<div class="reviews__content">
+						<div class="reviews__row">
+							<div class="reviews__column">
+								Замечательное место, с высоким уровнем обслуживания и замечательными сотрудниками!!!
+							</div>
+							<div class="column reviews__column">
+								Очень приятный продавец! Приходила с целью ремонта, сделали всё быстро и качественно, объяснили и ответили на все мои вопросы.Цены приятно радуют. Я теперь постоянный клиент! Всё на высшем уровне!
+							</div>
+						</div>
+						<div class="reviews__row">
+							<div class="reviews__column">
+									Обожаю этот магазин, а парни вообще высший класс)молодцы, знают свое дело, всегда в хорошем настроении и расположение духа))уйти от туда с одной жидкостью? - не, не слышали) немаловажно, можно не только на нюх определить нравится ли тебе жидкость, но и ощутить вкусовыми рецепторами)) авторская линейка ребят "emotions: serenity" вообще oneLove. Мы с мужем очень рады, что нашли вас) Только процветания и ответсвеных клиентов^^)
+							</div>
+						</div>
+						<div class="reviews__row" id="reviews__row-js">
+							<div class="reviews__column">
+									Обожаю этот магазин, а парни вообще высший класс)молодцы, знают свое дело, всегда в хорошем настроении и расположение духа))уйти от туда с одной жидкостью? - не, не слышали) немаловажно, можно не только на нюх определить нравится ли тебе жидкость, но и ощутить вкусовыми рецепторами)) авторская линейка ребят "emotions: serenity" вообще oneLove. Мы с мужем очень рады, что нашли вас) Только процветания и ответсвеных клиентов^^)
+							</div>
+						</div>
+						<div class="reviews__row"  id="reviews__row-js">
+							<div class="reviews__column">
+								Замечательное место, с высоким уровнем обслуживания и замечательными сотрудниками!!!
+							</div>
+							<div class="column reviews__column" id="reviews__row-js">
+								Очень приятный продавец! Приходила с целью ремонта, сделали всё быстро и качественно, объяснили и ответили на все мои вопросы.Цены приятно радуют. Я теперь постоянный клиент! Всё на высшем уровне!
+							</div>
+						</div>
+					</div>
+					<a href="#" id="reviews__btn-js" class="reviews__btn">
+						
+					<button type= "button" class="button">Все отзывы</button>
+					</a>	
+				</div>
+			</div>
+			<img src="img/reviews/reviews-rectangle.png" alt="" class="reviews__rectangle">
+		</section>
+
+	
+</body>
+</html>

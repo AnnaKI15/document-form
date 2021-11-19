@@ -1,0 +1,85 @@
+div.overlay {
+	
+	background-image:url(images/white.png);	
+	height: 400px;
+	width: 400px;	
+	display: none;
+	padding: 55px;
+}
+div.overlay div.close {
+	
+	background-image:url(images/close.png);
+	position:absolute;
+	right:5px;
+	top:5px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+}
+
+#overlay {
+	
+	background-image:url(images/transparent.png);
+	color: #efefef;
+}
+#overgoop {
+	
+	background-image:url(images/transparent.png);
+	color: #efefef;
+}
+div.wrap {
+	
+	height:100%;
+	overflow-y:auto;
+}
+.form{
+	position: relative;
+}
+.form__lables{
+
+}
+.lable {
+                
+	clear:left; 
+	display:block;
+	padding-right:4px; 
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+}
+.input {
+	margin:10px;
+	background-color: #F0F0F0;
+	border: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	color: #fff;
+}
+.button{
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px 40px;
+	color: #fff;
+	background-color: #01a9ff;
+}
+
+.form-btn{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+
+
+
+/*Reviews__section*/
+.wreapper__container{
+	width: 900px;
+	margin: 0 auto;	
+}
+
+
